@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="882bb567-46f2-4852-a81c-ad0fd2ec36bf" name="Default" comment="" />
+    <list default="true" id="882bb567-46f2-4852-a81c-ad0fd2ec36bf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/BasicParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/BasicParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/rasouli/jmonkey/lexer/ParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/rasouli/jmonkey/lexer/ParserTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,10 +31,18 @@
       <file leaf-file-name="BasicParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/BasicParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+            <state relative-caret-position="68">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#nextToken#0;class#BasicParser#0" />
+                <element signature="method#parseProgram#0;class#BasicParser#0" />
+                <element signature="method#parseStatement#0;class#BasicParser#0" />
+                <element signature="e#2725#2726#0" expanded="true" />
+                <element signature="e#2775#2776#0" expanded="true" />
+                <element signature="e#2829#2830#0" expanded="true" />
+                <element signature="e#2882#2883#0" expanded="true" />
+                <element signature="e#3159#3160#0" expanded="true" />
+                <element signature="e#3193#3194#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,11 +51,29 @@
       <file leaf-file-name="ParserTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/rasouli/jmonkey/lexer/ParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="108">
+              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -67,8 +99,17 @@
       <file leaf-file-name="LetStatement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/LetStatement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="34">
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LexerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/rasouli/jmonkey/lexer/LexerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-994">
+              <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -85,6 +126,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -98,16 +142,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/repel/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Expression.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Identifier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Parsers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/lexer/Lexers.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Statement.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/tokens/Token.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Program.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/LetStatement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/BasicParser.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/rasouli/jmonkey/lexer/ParserTest.java" />
       </list>
     </option>
@@ -125,50 +169,48 @@
     <option name="width" value="1366" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="jmonkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jmonkey" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter-book-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interpreter-book-in-java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jmonkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jmonkey" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter-book-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interpreter-book-in-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jmonkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jmonkey" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jmonkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jmonkey" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter-book-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interpreter-book-in-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jmonkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jmonkey" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter-book-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interpreter-book-in-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interpreter-book-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interpreter-book-in-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jmonkey" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jmonkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jmonkey" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter-book-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interpreter-book-in-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -176,21 +218,21 @@
               <item name="ast" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jmonkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jmonkey" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter-book-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interpreter-book-in-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jmonkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jmonkey" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter-book-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interpreter-book-in-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jmonkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jmonkey" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter-book-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interpreter-book-in-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -200,6 +242,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,34 +422,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LexerTest_testNextCodeWithVariableAssignAndFunctionDefinition - 2018.07.07 at 12h 16m 18s.xml">
-      <configuration name="LexerTest.testNextCodeWithVariableAssignAndFunctionDefinition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LexerTest_testNextCodeWithVariableAssignAndFunctionDefinition - 2018.07.07 at 13h 07m 04s.xml">
-      <configuration name="LexerTest.testNextCodeWithVariableAssignAndFunctionDefinition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LexerTest_testNextCodeWithVariableAssignAndFunctionDefinition - 2018.07.07 at 13h 12m 25s.xml">
-      <configuration name="LexerTest.testNextCodeWithVariableAssignAndFunctionDefinition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParserTest_testLetStatements - 2018.07.09 at 12h 39m 22s.xml">
+    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 14h 10m 13s.xml">
       <configuration name="ParserTest.testLetStatements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParserTest_testLetStatements - 2018.07.10 at 18h 33m 07s.xml">
+    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 14h 16m 40s.xml">
       <configuration name="ParserTest.testLetStatements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParserTest_testLetStatements - 2018.07.10 at 18h 36m 57s.xml">
+    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 14h 16m 52s.xml">
       <configuration name="ParserTest.testLetStatements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 11h 53m 00s.xml">
+    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 14h 17m 31s.xml">
       <configuration name="ParserTest.testLetStatements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 12h 24m 05s.xml">
+    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 14h 26m 26s.xml">
       <configuration name="ParserTest.testLetStatements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 12h 31m 51s.xml">
+    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 15h 02m 54s.xml">
       <configuration name="ParserTest.testLetStatements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 12h 37m 09s.xml">
+    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 15h 08m 46s.xml">
+      <configuration name="ParserTest.testLetStatements" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 15h 10m 59s.xml">
+      <configuration name="ParserTest.testLetStatements" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 15h 34m 35s.xml">
+      <configuration name="ParserTest.testLetStatements" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParserTest_testLetStatements - 2018.07.11 at 15h 34m 58s.xml">
       <configuration name="ParserTest.testLetStatements" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -420,18 +465,18 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.50874406" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290938" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.50874406" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.59300476" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22181553" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22181553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37201908" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37201908" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -443,14 +488,14 @@
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.50397456" />
       <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22181553" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.50397456" />
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
@@ -460,7 +505,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3290938" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32750398" />
@@ -486,15 +531,9 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/github/rasouli/jmonkey/lexer/ParserTest.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/github/rasouli/jmonkey/lexer/ParserTest.java</url>
-          <line>21</line>
+          <line>16</line>
           <properties class="com.github.rasouli.jmonkey.lexer.ParserTest" method="testLetStatements">
             <option name="EMULATED" value="true" />
           </properties>
@@ -571,7 +610,71 @@
         <state relative-caret-position="1275">
           <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
           <folding>
+            <element signature="method#nextToken#0;class#BasicParser#0" />
+            <element signature="method#parseProgram#0;class#BasicParser#0" />
+            <element signature="method#parseStatement#0;class#BasicParser#0" />
+            <element signature="e#2725#2726#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
+            <element signature="e#2829#2830#0" expanded="true" />
+            <element signature="e#2882#2883#0" expanded="true" />
+            <element signature="e#3159#3160#0" expanded="true" />
+            <element signature="e#3193#3194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/lexer/BasicLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/LetStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/rasouli/jmonkey/lexer/ParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Parsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/BasicParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+          <folding>
+            <element signature="method#nextToken#0;class#BasicParser#0" />
+            <element signature="method#parseProgram#0;class#BasicParser#0" />
+            <element signature="method#parseStatement#0;class#BasicParser#0" />
+            <element signature="e#2725#2726#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
+            <element signature="e#2829#2830#0" expanded="true" />
+            <element signature="e#2882#2883#0" expanded="true" />
+            <element signature="e#3159#3160#0" expanded="true" />
+            <element signature="e#3193#3194#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -640,7 +743,15 @@
         <state relative-caret-position="187">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#nextToken#0;class#BasicParser#0" />
+            <element signature="method#parseProgram#0;class#BasicParser#0" />
+            <element signature="method#parseStatement#0;class#BasicParser#0" />
+            <element signature="e#2725#2726#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
+            <element signature="e#2829#2830#0" expanded="true" />
+            <element signature="e#2882#2883#0" expanded="true" />
+            <element signature="e#3159#3160#0" expanded="true" />
+            <element signature="e#3193#3194#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -750,13 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/lexer/Lexers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -789,20 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/rasouli/jmonkey/lexer/LexerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -814,23 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/LetStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/BasicParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,15 +921,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/LetStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/rasouli/jmonkey/ast/BasicParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="method#nextToken#0;class#BasicParser#0" />
+            <element signature="method#parseProgram#0;class#BasicParser#0" />
+            <element signature="method#parseStatement#0;class#BasicParser#0" />
+            <element signature="e#2725#2726#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
+            <element signature="e#2829#2830#0" expanded="true" />
+            <element signature="e#2882#2883#0" expanded="true" />
+            <element signature="e#3159#3160#0" expanded="true" />
+            <element signature="e#3193#3194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar!/org/hamcrest/collection/IsCollectionWithSize.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/rasouli/jmonkey/lexer/LexerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-994">
+          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/rasouli/jmonkey/lexer/ParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="108">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>com.github.rasouli.jmonkey</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.8.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

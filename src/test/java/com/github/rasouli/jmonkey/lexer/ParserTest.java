@@ -1,25 +1,20 @@
 package com.github.rasouli.jmonkey.lexer;
 
 import com.github.rasouli.jmonkey.ast.*;
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
-import static org.hamcrest.collection.IsIterableContainingInOrder.contains;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertThat;
-import org.hamcrest.collection.IsEmptyCollection;
-import static org.hamcrest.CoreMatchers.not;
+import static org.assertj.core.api.Assertions.assertThat;
 
+import org.junit.Test;
 
 public class ParserTest {
 
     @Test
-    public  void testLetStatements() {
+    public void testLetStatements() {
         String input = "let x = 5;" +
                 " let y = 10;" +
                 "let foobar = 838383;";
@@ -28,11 +23,13 @@ public class ParserTest {
         Parser p = Parsers.basic(lexer);
 
         Program program = p.parseProgram();
-        assertNotNull("program should not be null.", program);
+        assertThat(program).isNotNull();
 
         ArrayList<Statement> letStatements = program.getStatements();
-        assertThat("let statements should not be empty", letStatements, not(IsEmptyCollection.empty()));
-        assertThat("let statements should give 3 parsed statements", letStatements, hasSize(3));
+
+        assertThat(letStatements)
+                .isNotEmpty()
+                .hasSize(3);
 
         List<String[]> expectations = Arrays.asList(new String[][]{
                 {"let", "x", "x"},
@@ -49,6 +46,7 @@ public class ParserTest {
 
 
 //        assertEquals(outCome, expectations);
-        assertThat(outCome, contains(expectations.toArray()));
+        assertThat(outCome).containsAll(expectations);
+        assertThat(p.errors()).size().isEqualTo(0);
     }
 }

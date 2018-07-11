@@ -5,12 +5,14 @@ import com.github.rasouli.jmonkey.tokens.Token;
 import com.github.rasouli.jmonkey.tokens.TokenType;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class BasicParser implements Parser {
 
     Lexer lexer;
     Token currentToken;
     Token peekToken;
+    List<String> errors = new ArrayList<>();
 
     public Token getPeekToken() {
         return peekToken;
@@ -19,7 +21,6 @@ public class BasicParser implements Parser {
     public Token getCurrentToken() {
         return currentToken;
     }
-
 
     public Lexer getLexer() {
         return lexer;
@@ -65,12 +66,10 @@ public class BasicParser implements Parser {
         LetStatement letStatement = new LetStatement();
         letStatement.setToken(currentToken); // current token is LET type with literal value of "let"
 
-        if (!peekTokenIs(TokenType.IDENT)) { // I expect an identifier after let
+        if (!expectPeek(TokenType.IDENT)) { // I expect an identifier after let
             return null;
         }
 
-        // move to the next token, which above it is verified to be an identifier.
-        nextToken();
 
         // we have identifier as current token.
         Identifier identifier = new Identifier(); // create an identifier expression, for Name part of the let statement
@@ -79,7 +78,7 @@ public class BasicParser implements Parser {
         letStatement.setName(identifier);
 
         // if there is no assign right after the identifier, then this is not a valid let statement!
-        if (!peekTokenIs(TokenType.ASSIGN)) {
+        if (!expectPeek(TokenType.ASSIGN)) {
             return null;
         }
 
@@ -93,11 +92,30 @@ public class BasicParser implements Parser {
 
     }
 
+    private boolean expectPeek (TokenType t) {
+        if (peekTokenIs(t)){
+            nextToken();
+            return true;
+        } else {
+            peekError(t);
+            return false;
+        }
+    }
     private boolean peekTokenIs(TokenType type) {
         return peekToken.getType() == type;
     }
 
     private boolean currentTokenIs(TokenType type) {
         return currentToken.getType() == type;
+    }
+
+    private void peekError(TokenType t) {
+        String error = String.format("expected next token to be of type %s, but got %s instead with literal %s", t, peekToken.getType(), peekToken.literal());
+        this.errors.add(error);
+    }
+
+
+    public List<String> errors() {
+        return this.errors;
     }
 }
