@@ -57,14 +57,28 @@ public class BasicParser implements Parser {
         switch (currentToken.getType()) {
             case LET:
                 return parseLetStatement();
+            case RETURN:
+                return parseReturnStatement();
         }
 
         return null;
     }
 
+    private ReturnStatement parseReturnStatement(){
+        ReturnStatement statement = new ReturnStatement();
+        statement.setToken(currentToken);
+
+        //TODO: skip parsing expression
+        while (currentToken.getType() != TokenType.SEMICOLON){
+            nextToken();
+        }
+
+        return statement;
+    }
+
     private LetStatement parseLetStatement() {
         LetStatement letStatement = new LetStatement();
-        letStatement.setToken(currentToken); // current token is LET type with literal value of "let"
+        letStatement.setToken(currentToken); // current token is LET type with getLiteral value of "let"
 
         if (!expectPeek(TokenType.IDENT)) { // I expect an identifier after let
             return null;
@@ -74,7 +88,7 @@ public class BasicParser implements Parser {
         // we have identifier as current token.
         Identifier identifier = new Identifier(); // create an identifier expression, for Name part of the let statement
         identifier.setToken(currentToken);
-        identifier.setValue(currentToken.literal());
+        identifier.setValue(currentToken.getLiteral());
         letStatement.setName(identifier);
 
         // if there is no assign right after the identifier, then this is not a valid let statement!
@@ -110,7 +124,7 @@ public class BasicParser implements Parser {
     }
 
     private void peekError(TokenType t) {
-        String error = String.format("expected next token to be of type %s, but got %s instead with literal %s", t, peekToken.getType(), peekToken.literal());
+        String error = String.format("expected next token to be of type %s, but got %s instead with getLiteral %s", t, peekToken.getType(), peekToken.getLiteral());
         this.errors.add(error);
     }
 

@@ -32,7 +32,7 @@ public class LexerTest {
             TokenType type = (TokenType) expectation[1];
 
             Token token = lexer.nextToken();
-            assertEquals(literal, token.literal());
+            assertEquals(literal, token.getLiteral());
             assertEquals(type, token.getType());
 
         }
@@ -141,7 +141,7 @@ public class LexerTest {
             TokenType type = (TokenType) expectation[1];
 
             Token token = lexer.nextToken();
-            assertEquals(literal, token.literal());
+            assertEquals(literal, token.getLiteral());
             assertEquals(type, token.getType());
 
         }

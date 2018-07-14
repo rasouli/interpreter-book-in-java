@@ -14,12 +14,23 @@ public class Program extends Node {
     }
 
     @Override
-    public String tokenLiteral() {
+    public String getTokenLiteral() {
         if (statements.size() > 0){
-            return statements.get(0).tokenLiteral();
+            return statements.get(0).getTokenLiteral();
         }
 
         return "";
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+
+        statements.forEach(s -> {
+            sb.append(s.toString());
+        });
+
+        return sb.toString();
     }
 
 

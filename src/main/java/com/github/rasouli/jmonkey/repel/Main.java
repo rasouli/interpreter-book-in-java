@@ -15,7 +15,7 @@ public class Main {
                 })
                 .forEach(t -> {
                     System.out.println("type :" + t.getType());
-                    System.out.println("literal : " + t.literal());
+                    System.out.println("getLiteral : " + t.getLiteral());
                 });
     }
 }

@@ -13,7 +13,8 @@ public abstract class Node {
         return token;
     }
 
-    abstract String tokenLiteral();
+    public abstract String getTokenLiteral();
+    public abstract String toString();
 
 }
 

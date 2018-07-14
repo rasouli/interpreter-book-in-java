@@ -4,7 +4,7 @@ public class Token {
     TokenType type;
     String literal;
 
-     Token(TokenType type, String literal) {
+     public Token(TokenType type, String literal) {
         this.type = type;
         this.literal = literal;
 
@@ -14,7 +14,7 @@ public class Token {
         return this.type;
     }
 
-    public String literal() {
+    public String getLiteral() {
         return this.literal;
     }
 
